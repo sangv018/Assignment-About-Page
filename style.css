@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Playfair-Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Martel-ExtraBold;
+    src: url(Martel-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Martel-SemiBold;
+    src: url(Martel-SemiBold.ttf);
+}
+
+
+body {
+    margin: 50px;
+    background-image: url("Frame_2.png");
+}
+
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    /* float: left; */
+}
+
+p {
+
+    /* display: inline; */
+    margin-top: 20px;
+    font-size: 30px;
+    color: #4D4444;
+    line-height: 50px;
+    font-family: "Martel-SemiBold";
+
+}
+
+button {
+  
+position: absolute;
+bottom: 50px;
+right: 227px;
+width: 335px;
+height: 71px;
+border: 0px;
+background-image:url("button_bg.png");
+background-color: transparent;
+font-size: 30px;
+font-family: "Playfair-Display";
+color: #E3E3E3;
+}
+
+#container-left img{
+    box-shadow: 16px 16px 10px #605959;
+    width: 400px;
+    height: 500px;
+}
+
+#container-left {
+    padding-top: 95px;
+    width: 50%;
+    text-align: center;
+}
+
+#container-right {
+    float: right;
+    text-align: center;
+    width: 50%;
+}
+h1 {
+    font-size: 75px;
+    color: #605959;
+    font-family:"Playfair-Display";
+    transform: scale(1.15,1.18);
+    font-weight: lighter;
+    margin: -20px;
+}
+
+h2 {
+font-size: 35px;
+font-family: "Martel-ExtraBold";
+margin: 60px;
+color: #716868;
+}
+
+
+
